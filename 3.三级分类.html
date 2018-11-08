@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>三级分类</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+<!--公共  头部-->
+<div class="public-header">
+    <div class="public-header-nav">
+        <div class="public-header-content">
+            您好，欢迎来到亮赞家居！
+        </div><!--public-header-content 结束-->
+        <div class="public-header-nav-right">
+            <ul class="nav-right-list">
+                <li><a style="color: #005fa2;" href="javascript:">请登录</a></li>
+                <li><a style="color: #666666;" href="javascript:">免费注册</a></li>
+                <li><a href="javascript:">购物车(0)</a>
+                    <img src="images/public-header-shopping.png" alt="">
+                    <div class="shopping-hide">
+                        <div class="hide-box">
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div><!--hide-box 结束-->
+                        <div class="hide-down">
+                            <div class="hide-down-box">
+                                <div class="down-box-left">
+                                    <h4>共 3 件商品</h4>
+                                    <p>597.00</p>
+                                    <span>元</span>
+                                </div>
+                                <div class="down-box-right">
+                                    <a href="javascript:">去购物车结算</a>
+                                </div>
+                            </div><!--hide-down-box 结束-->
+                        </div><!--hide-down 结束-->
+                    </div><!--shopping-hide 结束-->
+                </li>
+            </ul>
+        </div><!--public-header-nav-right 结束-->
+    </div><!--public-header-nav 结束-->
+</div><!--public-nav 结束-->
+
+<!--公共  导航-->
+<div class="public-nav">
+    <div class="public-nav-box">
+        <div class="public-nav-logo">
+            <img src="images/public-nav-logo.png" alt="">
+        </div><!--public-nav-logo 结束-->
+        <div class="public-nav-content">
+            <ul class="nav-list">
+                <li><a href="javascript:">灯具</a></li>
+                <li><a href="javascript:">配套设施</a></li>
+                <li><a href="javascript:">智能家居</a></li>
+                <li><a href="javascript:">关于我们</a></li>
+                <li><a href="javascript:">购物指南</a></li>
+                <li><a href="javascript:">需求单</a></li>
+            </ul>
+        </div><!--public-nav-content 结束-->
+        <div class="public-nav-search">
+            <input id="top" type="text" value="请输入商品名字" />
+            <div class="search-logo"><img src="images/search-logo.png" alt=""></div>
+        </div><!--public-nav-search 结束-->
+    </div><!--public-nav-box 结束-->
+</div><!--public-nav 结束-->
+<!--可变部分-->
+<div class="body-center">
+    <div class="body-center-box">
+        <div class="container-center">
+            <div class="container">
+                <div class="class-cfigure" id="cfigure">
+                    <div class="cfigure" style="width: 1200px;height: 500px;">
+                        <ul id="cfigure-ul" class="cfigure-photo" style="width: 3600px; height: 500px; left: -1200px;">
+                            <li style="width: 1200px;height: 500px" class="cfigure-photo-li">
+                                <a target="_blank" href="#" class="cfigure-photo-a" title="1图片描述">
+                                    <img src="images/3class.jpg" alt="1图片描述" class="cfigure-img">
+                                </a>
+                            </li>
+                            <li style="width: 1200px;height: 500px" class="cfigure-photo-li">
+                                <a target="_blank" href="http://localhost/wordpress/" class="cfigure-photo-a" title="2图片描述">
+                                    <img src="images/3class.jpg" alt="2图片描述" class="cfigure-img">
+                                </a>
+                            </li>
+                            <li style="width: 1200px;height: 500px" class="cfigure-photo-li">
+                                <a target="_blank" href="#" class="cfigure-photo-a" title="3图片描述">
+                                    <img src="images/3class.jpg" alt="3图片描述" class="cfigure-img">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="cfigure-point" id="cfigure-point">
+                            <li class="cfigure-point-li"></li>
+                            <li class="cfigure-point-li active"></li>
+                            <li class="cfigure-point-li"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--container 结束-->
+        </div><!--container-center 结束-->
+        <div class="classification">
+            <div class="classification-top">
+                <h3 class="top-title">某分类名字</h3>
+            </div><!--classification-top 结束-->
+            <ul class="body-center-ul">
+                <li class="body-center-li">
+                    <h4>品牌：</h4>
+                    <div class="center-li-icon">
+                        <a href="javascript:;">欧普照明</a>
+                        <a href="javascript:;">雷士</a>
+                        <a href="javascript:;">飞利浦</a>
+                        <a href="javascript:;">汉斯威诺</a>
+                        <a href="javascript:;">TCL</a>
+                        <a href="javascript:;"> 金幻 </a>
+                    </div>
+                </li>
+                <li class="body-center-li">
+                    <h4>灯具：</h4>
+                    <div class="center-li-icon">
+                        <a href="javascript:;">吸顶灯</a>
+                        <a href="javascript:;">吊灯</a>
+                        <a href="javascript:;">LED灯</a>
+                        <a href="javascript:;">箭筒射灯 </a>
+                        <a href="javascript:;">台灯</a>
+                        <a href="javascript:;"> 装饰灯 </a>
+                    </div>
+                </li>
+                <li class="body-center-li last-li">
+                    <h4>适用范围：</h4>
+                    <div class="center-li-icon">
+                        <a href="javascript:;">客厅</a>
+                        <a href="javascript:;">卧室</a>
+                        <a href="javascript:;">书房</a>
+                        <a href="javascript:;">门厅/过道 </a>
+                        <a href="javascript:;">卫生间</a>
+                        <a href="javascript:;"> 其他 </a>
+                    </div>
+                </li>
+            </ul><!--body-center-ul 结束-->
+        </div><!--classification 结束-->
+        <div class="pick-up-head">
+            <ul class="pick-up-title class-public">
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-top-up">
+                            <div class="new-top-up1">新品</div>
+                            <div class="new-top-up2">热销</div>
+                        </div>
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pick-up-title class-public">
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-top-up">
+                            <div class="new-top-up1" style="display: none;">新品</div>
+                            <div class="new-top-up2">推荐</div>
+                        </div>
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pick-up-title class-public">
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-top-up">
+                            <div class="new-top-up1">新品</div>
+                            <div class="new-top-up2">热销</div>
+                        </div>
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pick-up-title class-public">
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="pick-box-li pick-item">
+                    <a href="javascript:">
+                        <div class="pick-top-up">
+                            <div class="new-top-up1">新品</div>
+                            <div class="new-top-up2">热销</div>
+                        </div>
+                        <div class="pick-box-hide hide">
+                            <i class="icon-font poa class-guanzhu"><img src="images/guanzhu-pic.png" alt=""></i>
+                            <i class="icon-font poa class-jiarugwc"><img src="images/shop-wc.png" alt=""></i>
+                        </div><!--pick-box-hide 结束-->
+                        <div class="pick-pic">
+                            <img src="images/lately-pic-1.jpg" alt="">
+                        </div>
+                        <h4>手机投影仪 扑克大小 无线同屏</h4>
+                        <span>某某品牌</span>
+                        <div class="price-box">
+                            <span class="price-ico fl">￥</span>
+                            <span class="price fl">199</span>
+                            <span class="price-ico fl price-delete">￥366</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div><!--pick-up-head结束-->
+
+        <!--翻页-->
+        <div class="page-turning">
+            <a href="" class="page btn">首页</a>
+            <a href="" class="page btn">上一页</a>
+            <a href="" class="page active">1</a>
+            <a href="" class="page">2</a>
+            <a href="" class="page">3</a>
+            <a href="" class="page">下一页</a>
+            <a href="" class="page">尾页</a>
+        </div><!--page-turning 结束-->
+
+        <!--最近浏览-->
+        <div class="lately-box-1">
+            <div class="lately-top">
+                <div class="line"></div>
+                <span class="line-text content">最近浏览</span>
+                <div class="line" style="right: 0;"></div>
+            </div><!--lately-top 结束-->
+            <ul class="lately-center-1">
+                <li>
+                    <div class="pick-pic">
+                        <img src="images/lately-pic-1.jpg" alt="">
+                    </div>
+                    <h4>手机投影仪 扑克大小 无线同屏</h4>
+                    <span>某某品牌</span>
+                    <div class="price-box">
+                        <span class="price-ico fl">￥</span>
+                        <span class="price fl">199</span>
+                        <span class="price-ico fl price-delete">￥366</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pick-pic">
+                        <img src="images/lately-pic-1.jpg" alt="">
+                    </div>
+                    <h4>手机投影仪 扑克大小 无线同屏</h4>
+                    <span>某某品牌</span>
+                    <div class="price-box">
+                        <span class="price-ico fl">￥</span>
+                        <span class="price fl">199</span>
+                        <span class="price-ico fl price-delete">￥366</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pick-pic">
+                        <img src="images/lately-pic-1.jpg" alt="">
+                    </div>
+                    <h4>手机投影仪 扑克大小 无线同屏</h4>
+                    <span>某某品牌</span>
+                    <div class="price-box">
+                        <span class="price-ico fl">￥</span>
+                        <span class="price fl">199</span>
+                        <span class="price-ico fl price-delete">￥366</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="pick-pic">
+                        <img src="images/lately-pic-1.jpg" alt="">
+                    </div>
+                    <h4>手机投影仪 扑克大小 无线同屏</h4>
+                    <span>某某品牌</span>
+                    <div class="price-box">
+                        <span class="price-ico fl">￥</span>
+                        <span class="price fl">199</span>
+                        <span class="price-ico fl price-delete">￥366</span>
+                    </div>
+                </li>
+            </ul>
+        </div><!--lately-box 结束-->
+    </div><!--body-center-box 结束-->
+</div><!--body-center 结束-->
+
+<!--公共底部-->
+<div class="public-footer">
+    <div class="public-footer-goods">
+        <ul class="goods-box">
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="public-footer-label">
+        <div class="public-footer-payment">
+            <ul class="footer-list">
+                <li class="footer-list-li">
+                    线下体验店
+                    <ul>
+                        <li>
+                            <a href="javascript:">线下体验店</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    服务支持
+                    <ul>
+                        <li>
+                            <a href="javascript:">售后政策</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    会员专区
+                    <ul>
+                        <li>
+                            <a href="javascript:">注册登陆</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">会员条框</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">忘记密码</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">修改资料</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">个人资料</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    购物指南
+                    <ul>
+                        <li>
+                            <a href="javascript:">购买</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">支付</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">配送</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    配送方式
+                    <ul>
+                        <li>
+                            <a href="javascript:"> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    特色服务
+                    <ul>
+                        <li>
+                            <a href="javascript:">配货单</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">需求单</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    帮助中心
+                    <ul>
+                        <li>
+                            <a href="javascript:">购物指南</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">支付方式</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">配送方式</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    支付方式
+                    <ul>
+                        <li>
+                            <a href="javascript:"> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    联系我们
+                    <ul>
+                        <li class="phone">400-100-5678</li>
+                        <li>
+                            <a href="javascript:">周一至周日 8:00-18:00</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">（仅收市话费）</a>
+                        </li>
+                    </ul>
+                    <span class="foot-li-kefu">
+                        在线客服
+                        <div class="kefu-pic"></div>
+                    </span>
+                    <span class="foot-li-weixin">
+                        <div class="footer-li-weixin-icon"></div>
+                        <div class="weixin-down"></div>
+                        <img src="images/wei.jpg" alt="">
+                    </span>
+                </li>
+            </ul><!--footer-list 结束-->
+        </div><!--public-footer-payment 结束-->
+    </div><!--public-footer-label 结束-->
+    <div class="footer-down">
+        亮赞家居©2016 贵州亮赞电子商务有限公司版权所有  黔ICP证110507号
+    </div>
+</div><!--public-footer 结束-->
+
+
+<script src="js/CFigure.js"></script>
+<script src="js/index.js"></script>
+<script>
+    CFigure.config({
+        "id":"cfigure",
+        "with":1200,
+        "height":500,
+        "time":2000,
+        "img":{
+            "1图片描述":["images/3class.jpg","http://localhost/wordpress/"],
+            "2图片描述":["images/3class.jpg","http://localhost/wordpress/"],
+            "3图片描述":["images/3class.jpg","http://localhost/wordpress/"]
+        }
+    });
+    CFigure.init();
+</script>
+</body>
+</html>

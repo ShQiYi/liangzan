@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+<!--公共  头部-->
+<div class="public-header">
+    <div class="public-header-nav">
+        <div class="public-header-content">
+            您好，欢迎来到亮赞家居！
+        </div><!--public-header-content 结束-->
+        <div class="public-header-nav-right">
+            <ul class="nav-right-list">
+                <li><a style="color: #005fa2;" href="javascript:">请登录</a></li>
+                <li><a style="color: #666666;" href="javascript:">免费注册</a></li>
+                <li><a href="javascript:">购物车(0)</a>
+                    <img src="images/public-header-shopping.png" alt="">
+                    <div class="shopping-hide">
+                        <div class="hide-box">
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hide-box-list">
+                                <li>
+                                    <div class="hide-photo">
+                                        <img src="images/hide-photo.png" alt="">
+                                    </div>
+                                    <div class="hide-cont">
+                                        <p>199元x1</p>
+                                        <span>现代简约led客厅灯具大气创意</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div><!--hide-box 结束-->
+                        <div class="hide-down">
+                            <div class="hide-down-box">
+                                <div class="down-box-left">
+                                    <h4>共 3 件商品</h4>
+                                    <p>597.00</p>
+                                    <span>元</span>
+                                </div>
+                                <div class="down-box-right">
+                                    <a href="javascript:">去购物车结算</a>
+                                </div>
+                            </div><!--hide-down-box 结束-->
+                        </div><!--hide-down 结束-->
+                    </div><!--shopping-hide 结束-->
+                </li>
+            </ul>
+        </div><!--public-header-nav-right 结束-->
+    </div><!--public-header-nav 结束-->
+</div><!--public-nav 结束-->
+
+<!--公共  导航-->
+<div class="public-nav">
+    <div class="public-nav-box">
+        <div class="public-nav-logo">
+            <img src="images/public-nav-logo.png" alt="">
+        </div><!--public-nav-logo 结束-->
+        <div class="public-nav-content">
+            <ul class="nav-list">
+                <li><a href="javascript:">灯具</a></li>
+                <li><a href="javascript:">配套设施</a></li>
+                <li><a href="javascript:">智能家居</a></li>
+                <li><a href="javascript:">关于我们</a></li>
+                <li><a href="javascript:">购物指南</a></li>
+                <li><a href="javascript:">需求单</a></li>
+            </ul>
+        </div><!--public-nav-content 结束-->
+        <div class="public-nav-search">
+            <input id="top" type="text" value="请输入商品名字" />
+            <div class="search-logo"><img src="images/search-logo.png" alt=""></div>
+        </div><!--public-nav-search 结束-->
+    </div><!--public-nav-box 结束-->
+</div><!--public-nav 结束-->
+
+<!--我的订单-->
+<div class="order-title">
+    <div class="order-center">
+        <a href="javascript:">首页</a>
+        >
+        <a href="javascript:;">我的订单</a>
+    </div>
+</div><!--order-title 结束-->
+<div class="order-box">
+    <div class="order-box-center">
+        <div class="order-index">
+            <div class="order-index-left">
+                <ul class="order-index-ul">
+                    <li class="order-index-li">
+                        <a href="javascript:;" class="order-index-a">账户信息</a>
+                    </li>
+                    <li class="order-index-li">
+                        <a href="javascript:;" class="order-index-a order-active">我的订单</a>
+                    </li>
+                    <li class="order-index-li">
+                        <a href="javascript:;" class="order-index-a">收货地址</a>
+                    </li>
+                    <li class="order-index-li">
+                        <a href="javascript:;" class="order-index-a">商品收藏</a>
+                    </li>
+                    <li class="order-index-li">
+                        <a href="javascript:;" class="order-index-a">优惠券</a>
+                    </li>
+                </ul><!--order-index-ul 结束-->
+            </div><!--order-index-left 结束-->
+
+            <div class="order-index-right">
+                <div class="order-right-center">
+                    <h2 class="user-info-h2">我的订单</h2>
+                    <ul class="my-goods-ul">
+                        <li class="my-goods-li"><a href="javascript:;">全部订单</a></li>
+                        <li class="my-goods-li"><a href="javascript:;">待支付</a></li>
+                        <li class="my-goods-li"><a href="javascript:;">待收货</a></li>
+                        <li class="my-goods-li"><a href="javascript:;">已关闭</a></li>
+                    </ul><!--my-goods-ul 结束-->
+                    <div class="oder-table">
+                        <div class="order-table-box">
+                            <div class="order-table-title">
+                                <div class="order-table-top">待收货</div>
+                                <ul class="table-title-info">
+                                    <li class="fl">2016年7月26日 16:33:36</li>
+                                    <li class="fl">田俊杰</li>
+                                    <li class="fl">订单号：4152415564545432</li>
+                                    <li class="fl">在线支付</li>
+                                </ul><!--table-title-info 结束-->
+                                <div class="table-money">
+                                    订单金额：
+                                    <span>￥1497</span>
+                                </div><!--table-money 结束-->
+                            </div><!--order-table-title 结束-->
+                            <div class="order-table-down">
+                                <ul class="order-table-down-ul">
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                </ul><!--order-table-down-ul 结束-->
+                                <a class="ding-details" href="javascript:">订单详情</a>
+                            </div><!--order-table-down 结束-->
+                        </div><!--order-table-box 结束-->
+                        <div class="goods-dates">
+                            <div class="order-table-title">
+                                <div class="order-table-top">待收货</div>
+                                <ul class="table-title-info">
+                                    <li class="fl">2016年7月26日 16:33:36</li>
+                                    <li class="fl">田俊杰</li>
+                                    <li class="fl">订单号：4152415564545432</li>
+                                    <li class="fl">在线支付</li>
+                                </ul><!--table-title-info 结束-->
+                                <div class="table-money">
+                                    订单金额：
+                                    <span>￥1497</span>
+                                </div><!--table-money 结束-->
+                            </div><!--order-table-title 结束-->
+                            <div class="order-table-down">
+                                <ul class="order-table-down-ul">
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                   <!-- <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div>&lt;!&ndash;order-down-cen 结束&ndash;&gt;
+                                    </li>&lt;!&ndash;order-down-li 结束&ndash;&gt;
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div>&lt;!&ndash;order-down-cen 结束&ndash;&gt;
+                                    </li>&lt;!&ndash;order-down-li 结束&ndash;&gt;
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div>&lt;!&ndash;order-down-cen 结束&ndash;&gt;
+                                    </li>order-down-li 结束-->
+                                </ul><!--order-table-down-ul 结束-->
+                                <a class="ding-details" href="javascript:">订单详情</a>
+                            </div><!--order-table-down 结束-->
+                        </div><!--goods-dates 结束-->
+                        <div class="news-number-box ">
+                            <div class="page-number order-number">
+                                <a class="pang ban">首页</a>
+                                <a class="pang ban">上一页</a>
+                                <a class="pang active-page2">1</a>
+                                <a class="pang">2</a>
+                                <a class="pang">3</a>
+                                <a class="pang">4</a>
+                                <a class="pang">下一页</a>
+                                <a class="pang">尾页</a>
+                            </div>
+
+                        </div><!--news-number-box 结束-->
+                    </div><!--oder-table 结束-->
+                    <div class="oder-table hide">
+                        <div class="order-table-box">
+                            <div class="order-table-title">
+                                <div class="order-table-top">待支付</div>
+                                <ul class="table-title-info">
+                                    <li class="fl">2016年7月26日 16:33:36</li>
+                                    <li class="fl">田俊杰</li>
+                                    <li class="fl">订单号：4152415564545432</li>
+                                    <li class="fl">在线支付</li>
+                                </ul><!--table-title-info 结束-->
+                                <div class="table-money">
+                                    订单金额：
+                                    <span>￥1497</span>
+                                </div><!--table-money 结束-->
+                            </div><!--order-table-title 结束-->
+                            <div class="order-table-down">
+                                <ul class="order-table-down-ul">
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                </ul><!--order-table-down-ul 结束-->
+                                <a class="ding-details" href="javascript:">订单详情</a>
+                            </div><!--order-table-down 结束-->
+                        </div><!--order-table-box 结束-->
+                    </div><!--oder-table 结束-->
+                    <div class="oder-table hide">
+                        <div class="order-table-box">
+                            <div class="order-table-title">
+                                <div class="order-table-top">待收货</div>
+                                <ul class="table-title-info">
+                                    <li class="fl">2016年7月26日 16:33:36</li>
+                                    <li class="fl">田俊杰</li>
+                                    <li class="fl">订单号：4152415564545432</li>
+                                    <li class="fl">在线支付</li>
+                                </ul><!--table-title-info 结束-->
+                                <div class="table-money">
+                                    订单金额：
+                                    <span>￥1497</span>
+                                </div><!--table-money 结束-->
+                            </div><!--order-table-title 结束-->
+                            <div class="order-table-down">
+                                <ul class="order-table-down-ul">
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                </ul><!--order-table-down-ul 结束-->
+                                <a class="ding-details" href="javascript:">订单详情</a>
+                            </div><!--order-table-down 结束-->
+                        </div><!--order-table-box 结束-->
+                    </div><!--oder-table 结束-->
+                    <div class="oder-table hide">
+                        <div class="order-table-box">
+                            <div class="order-table-title">
+                                <div class="order-table-top">已关闭</div>
+                                <ul class="table-title-info">
+                                    <li class="fl">2016年7月26日 16:33:36</li>
+                                    <li class="fl">田俊杰</li>
+                                    <li class="fl">订单号：4152415564545432</li>
+                                    <li class="fl">在线支付</li>
+                                </ul><!--table-title-info 结束-->
+                                <div class="table-money">
+                                    订单金额：
+                                    <span>￥1497</span>
+                                </div><!--table-money 结束-->
+                            </div><!--order-table-title 结束-->
+                            <div class="order-table-down">
+                                <ul class="order-table-down-ul">
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                    <li class="order-down-li">
+                                        <div class="down-li-img"><img src="images/order-info.png" alt=""></div>
+                                        <div class="order-down-cen">
+                                            <a href="javascript:">实木床 1.5米1.8米双人床简约软包皮床卧室家具 </a>
+                                            <div class="down-money">￥138×1</div>
+                                        </div><!--order-down-cen 结束-->
+                                    </li><!--order-down-li 结束-->
+                                </ul><!--order-table-down-ul 结束-->
+                                <a class="ding-details" href="javascript:">订单详情</a>
+                            </div><!--order-table-down 结束-->
+                        </div><!--order-table-box 结束-->
+                    </div><!--oder-table 结束-->
+                </div><!--order-right-center 结束-->
+            </div><!--order-index-right 结束-->
+            <!--侧边栏-->
+        </div>
+    </div><!--order-box-center 结束-->
+</div><!--order-box 结束-->
+
+<!--公共底部-->
+<div class="public-footer">
+    <div class="public-footer-goods">
+        <ul class="goods-box">
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+            <li>
+                <div class="goods-list">
+                    <img src="images/footer-pic.png" alt="">
+                    <p>满399包安装</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="public-footer-label">
+        <div class="public-footer-payment">
+            <ul class="footer-list">
+                <li class="footer-list-li">
+                    线下体验店
+                    <ul>
+                        <li>
+                            <a href="javascript:">线下体验店</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    服务支持
+                    <ul>
+                        <li>
+                            <a href="javascript:">售后政策</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    会员专区
+                    <ul>
+                        <li>
+                            <a href="javascript:">注册登陆</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">会员条框</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">忘记密码</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">修改资料</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">个人资料</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    购物指南
+                    <ul>
+                        <li>
+                            <a href="javascript:">购买</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">支付</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">配送</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    配送方式
+                    <ul>
+                        <li>
+                            <a href="javascript:"> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    特色服务
+                    <ul>
+                        <li>
+                            <a href="javascript:">配货单</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">需求单</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    帮助中心
+                    <ul>
+                        <li>
+                            <a href="javascript:">购物指南</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">支付方式</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">配送方式</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    支付方式
+                    <ul>
+                        <li>
+                            <a href="javascript:"> </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list-li">
+                    联系我们
+                    <ul>
+                        <li class="phone">400-100-5678</li>
+                        <li>
+                            <a href="javascript:">周一至周日 8:00-18:00</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">（仅收市话费）</a>
+                        </li>
+                    </ul>
+                    <span class="foot-li-kefu">
+                        在线客服
+                        <div class="kefu-pic"></div>
+                    </span>
+                    <span class="foot-li-weixin">
+                        <div class="footer-li-weixin-icon"></div>
+                        <div class="weixin-down"></div>
+                        <img src="images/wei.jpg" alt="">
+                    </span>
+                </li>
+            </ul><!--footer-list 结束-->
+        </div><!--public-footer-payment 结束-->
+    </div><!--public-footer-label 结束-->
+    <div class="footer-down">
+        亮赞家居©2016 贵州亮赞电子商务有限公司版权所有  黔ICP证110507号
+    </div>
+</div><!--public-footer 结束-->
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/tab.js"></script>
+<script>
+    tab(".my-goods-li a",".oder-table");
+</script>
+</body>
+</html>
